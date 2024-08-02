@@ -26,6 +26,8 @@ public class TC01_CreateOrganization_Test extends BaseTest{
 			test.log(Status.FAIL, "Something went wrong while moving to Oraganzation page😑😑");
 		
 		hp.getAddButton().click();
+		
+		
 	}
 	
 	@Test(groups = "Regression")

@@ -15,7 +15,6 @@
     	<groupId>org.testng</groupId>
     	<artifactId>testng</artifactId>
     	<version>7.7.1</version>
-    	
 	</dependency>
 	
 	<dependency>
@@ -72,7 +71,7 @@
   
   <profiles>
   		<profile>
-  			<id>suite1</id>
+  			<id>RT</id>
             <build>
          		<plugins>
          			<plugin>
@@ -89,7 +88,7 @@
         </profile>
         
         <profile>
-  			<id>suite2</id>
+  			<id>ST</id>
             <build>
          		<plugins>
          			<plugin>

@@ -1,6 +1,7 @@
 package POMPages;
 
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
@@ -11,5 +12,21 @@ public class CreateOrganizationPage extends HomePage{
 		PageFactory.initElements(driver, this);
 	}
 	
-	//@FindBy
+	@FindBy(name = "accountname")
+	private WebElement orgName;
+	
+	@FindBy(name = "website")
+	private WebElement website;
+	
+	@FindBy(name = "tickersymbol")
+	private WebElement ticketSymbol;
+	
+	@FindBy(name = "account_name")
+	private WebElement accName;
+	
+	@FindBy(xpath = "//img[@src='themes/softed/images/select.gif']")
+	private WebElement plusBut;
+	
+	@FindBy(xpath = "//input[@src='themes/images/clear_field.gif']")
+	private WebElement clearBut;
 }
