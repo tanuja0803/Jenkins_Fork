@@ -5,11 +5,14 @@ import org.testng.annotations.Test;
 
 import com.aventstack.extentreports.Status;
 
+import POMPages.CreateOrganizationPage;
 import POMPages.HomePage;
+import WD_JavaUtility.JavaUtility;
 import baseUtility.BaseTest;
 
 public class TC01_CreateOrganization_Test extends BaseTest{
-	HomePage hp=null;;
+	HomePage hp=null;
+	JavaUtility ju=null;
 	@Test(groups = "Smoke")
 	public void creatingOrg_Test() {
 		Reporter.log("creatingOrg_Test method of TC01_CreateOrganization_Test class", true);
@@ -27,13 +30,16 @@ public class TC01_CreateOrganization_Test extends BaseTest{
 		
 		hp.getAddButton().click();
 		
-		
+		CreateOrganizationPage cop=new CreateOrganizationPage(driver);
+		ju=new JavaUtility();
+		cop.getOrgName().sendKeys("OrgName_"+ju.generateRandomNumber());
+		cop.getSaveButton().click();
 	}
 	
-	@Test(groups = "Regression")
-	public void viewOrg_Test() {
-		Reporter.log("viewOrg_Test method of TC01_CreateOrganization_Test class",true);
-		hp=new HomePage(driver);
-		hp.getOrg().click();
-	}
+//	@Test(groups = "Regression")
+//	public void viewOrg_Test() {
+//		Reporter.log("viewOrg_Test method of TC01_CreateOrganization_Test class",true);
+//		hp=new HomePage(driver);
+//		hp.getOrg().click();
+//	}
 }

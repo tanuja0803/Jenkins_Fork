@@ -8,7 +8,7 @@ import java.sql.Statement;
 
 import com.mysql.cj.jdbc.Driver;
 
-public class Reeading_WritingDataFromDatabase {
+public class Reading_WritingDataFromDatabase {
 	Connection con;
 	public void getConnection(String url, String username,String pwd) throws SQLException {
 		Driver d=new Driver();

@@ -3,6 +3,7 @@ package baseUtility;
 import java.time.Duration;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.StaleElementReferenceException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Reporter;
@@ -63,7 +64,12 @@ public class BaseTest {
 	@AfterMethod(groups = {"Smoke","Regression"})
 	public void itsAfterMethod() {
 		Reporter.log("After Method Started",true);
-		driver.findElement(By.xpath("//img[@src=\"themes/softed/images/user.PNG\"]")).click();
+		try {
+			driver.findElement(By.xpath("//img[@src='themes/softed/images/user.PNG']")).click();
+		}
+		catch(StaleElementReferenceException e) {
+			driver.findElement(By.xpath("//img[@src='themes/softed/images/user.PNG']")).click();
+		}
 	}
 	
 	@AfterClass(groups = {"Smoke","Regression"})
