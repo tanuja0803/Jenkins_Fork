@@ -36,10 +36,11 @@ public class TC01_CreateOrganization_Test extends BaseTest{
 		cop.getSaveButton().click();
 	}
 	
-//	@Test(groups = "Regression")
-//	public void viewOrg_Test() {
-//		Reporter.log("viewOrg_Test method of TC01_CreateOrganization_Test class",true);
-//		hp=new HomePage(driver);
-//		hp.getOrg().click();
-//	}
+	@Test(groups = "Regression")
+	public void viewOrg_Test() {
+		test=ereport.createTest("viewOrg_Test");
+		Reporter.log("viewOrg_Test method of TC01_CreateOrganization_Test class",true);
+		hp=new HomePage(driver);
+		hp.getOrg().click();
+	}
 }

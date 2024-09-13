@@ -37,7 +37,6 @@ public class BaseTest {
 		esreport= new ExtentSparkReporter("./advanceReport/Advance_Report_"+date+".html");
 		esreport.config().setDocumentTitle("VTiger Report");
 		esreport.config().setReportName("AdbanceReport"+ju.generateRandomNumber());
-		
 	}
 	
 	@BeforeClass(groups = {"Smoke","Regression"})
