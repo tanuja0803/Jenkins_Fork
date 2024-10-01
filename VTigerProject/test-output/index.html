@@ -51,7 +51,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
-                    <span>C:\Users\User\AppData\Local\Temp\testng-eclipse--695017724\testng-customsuite.xml</span>
+                    <span>C:\Users\User\AppData\Local\Temp\testng-eclipse-607184304\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -93,7 +93,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">2 methods,   2 passed</span>
+                    <span class="method-stats">3 methods,   3 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -104,12 +104,17 @@
                     <div class="method-list-content passed suite-Default_suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="testCases.TC01_CreateOrganization_Test" class="method navigator-link" hash-for-method="creatingOrg_Test">creatingOrg_Test</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="testCases.SimpleTestCase_Test" class="method navigator-link" hash-for-method="show1_Test">show1_Test</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="testCases.TC01_CreateOrganization_Test" class="method navigator-link" hash-for-method="viewOrg_Test">viewOrg_Test</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="testCases.SimpleTestCase_Test" class="method navigator-link" hash-for-method="show2_Test">show2_Test</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="testCases.SimpleTestCase_Test" class="method navigator-link" hash-for-method="show_Test">show_Test</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Default_suite -->
@@ -127,21 +132,28 @@
           <div class="suite-Default_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">testCases.TC01_CreateOrganization_Test</span>
+              <span class="class-name">testCases.SimpleTestCase_Test</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="creatingOrg_Test">
-                  </a> <!-- creatingOrg_Test -->
-                  <span class="method-name">creatingOrg_Test</span>
+                  <a name="show1_Test">
+                  </a> <!-- show1_Test -->
+                  <span class="method-name">show1_Test</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="viewOrg_Test">
-                  </a> <!-- viewOrg_Test -->
-                  <span class="method-name">viewOrg_Test</span>
+                  <a name="show2_Test">
+                  </a> <!-- show2_Test -->
+                  <span class="method-name">show2_Test</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="show_Test">
+                  </a> <!-- show_Test -->
+                  <span class="method-name">show_Test</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -149,7 +161,7 @@
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\User\AppData\Local\Temp\testng-eclipse--695017724\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\User\AppData\Local\Temp\testng-eclipse-607184304\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -158,7 +170,7 @@
 &lt;suite name=&quot;Default suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Default test&quot; verbose=&quot;2&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;testCases.TC01_CreateOrganization_Test&quot;/&gt;
+      &lt;class name=&quot;testCases.SimpleTestCase_Test&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Default test --&gt;
 &lt;/suite&gt; &lt;!-- Default suite --&gt;
@@ -186,7 +198,11 @@
               <span class="test-group-name">Regression</span>
               <br/>
               <div class="method-in-group">
-                <span class="method-in-group-name">viewOrg_Test</span>
+                <span class="method-in-group-name">show1_Test</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">show2_Test</span>
                 <br/>
               </div> <!-- method-in-group -->
             </div> <!-- test-group -->
@@ -194,7 +210,7 @@
               <span class="test-group-name">Smoke</span>
               <br/>
               <div class="method-in-group">
-                <span class="method-in-group-name">creatingOrg_Test</span>
+                <span class="method-in-group-name">show_Test</span>
                 <br/>
               </div> <!-- method-in-group -->
             </div> <!-- test-group -->
@@ -214,20 +230,24 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(2);
+data.addRows(3);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'creatingOrg_Test')
-data.setCell(0, 2, 'testCases.TC01_CreateOrganization_Test')
-data.setCell(0, 3, 20317);
+data.setCell(0, 1, 'show1_Test')
+data.setCell(0, 2, 'testCases.SimpleTestCase_Test')
+data.setCell(0, 3, 25);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'viewOrg_Test')
-data.setCell(1, 2, 'testCases.TC01_CreateOrganization_Test')
-data.setCell(1, 3, 2772);
+data.setCell(1, 1, 'show2_Test')
+data.setCell(1, 2, 'testCases.SimpleTestCase_Test')
+data.setCell(1, 3, 17);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'show_Test')
+data.setCell(2, 2, 'testCases.SimpleTestCase_Test')
+data.setCell(2, 3, 0);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 23 seconds</span>
+              <span class="suite-total-time">Total running time: 42 ms</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -239,15 +259,21 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="reporter-method-div">
-              <span class="reporter-method-name">creatingOrg_Test</span>
+              <span class="reporter-method-name">show1_Test</span>
               <div class="reporter-method-output-div">
-                <span class="reporter-method-output">creatingOrg_Test method of TC01_CreateOrganization_Test class</span>
+                <span class="reporter-method-output">SimpleTestCase_Test show1_Test method</span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
             <div class="reporter-method-div">
-              <span class="reporter-method-name">viewOrg_Test</span>
+              <span class="reporter-method-name">show2_Test</span>
               <div class="reporter-method-output-div">
-                <span class="reporter-method-output">viewOrg_Test method of TC01_CreateOrganization_Test class</span>
+                <span class="reporter-method-output">SimpleTestCase_Test show2_Test method</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">show_Test</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">SimpleTestCase_Test show_Test method</span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -265,46 +291,58 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">testCases.TC01_CreateOrganization_Test</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">testCases.SimpleTestCase_Test</div> <!-- chronological-class-name -->
               <div class="configuration-suite before">
                 <span class="method-name">itsBeforeSuite</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-suite before -->
               <div class="configuration-class before">
                 <span class="method-name">itsBeforeClass</span>
-                <span class="method-start">68 ms</span>
+                <span class="method-start">205 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
                 <span class="method-name">itsBeforeMethod</span>
-                <span class="method-start">294 ms</span>
+                <span class="method-start">785 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">creatingOrg_Test</span>
-                <span class="method-start">24294 ms</span>
+                <span class="method-name">show1_Test</span>
+                <span class="method-start">10560 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">itsAfterMethod</span>
-                <span class="method-start">44614 ms</span>
+                <span class="method-start">10600 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">itsBeforeMethod</span>
-                <span class="method-start">55218 ms</span>
+                <span class="method-start">10725 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">viewOrg_Test</span>
-                <span class="method-start">59815 ms</span>
+                <span class="method-name">show2_Test</span>
+                <span class="method-start">19122 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">itsAfterMethod</span>
-                <span class="method-start">62591 ms</span>
+                <span class="method-start">19139 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">itsBeforeMethod</span>
+                <span class="method-start">19260 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">show_Test</span>
+                <span class="method-start">27887 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">itsAfterMethod</span>
+                <span class="method-start">27890 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-class after">
                 <span class="method-name">itsAfterClass</span>
-                <span class="method-start">62654 ms</span>
+                <span class="method-start">28033 ms</span>
               </div> <!-- configuration-class after -->
               <div class="configuration-suite after">
                 <span class="method-name">itsAfterSuite</span>
-                <span class="method-start">62867 ms</span>
+                <span class="method-start">28522 ms</span>
               </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
