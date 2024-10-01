@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
     <line>
       <![CDATA[Before Suite Started]]>
@@ -11,7 +11,7 @@
       <![CDATA[Before Method Started]]>
     </line>
     <line>
-      <![CDATA[creatingOrg_Test method of TC01_CreateOrganization_Test class]]>
+      <![CDATA[SimpleTestCase_Test show1_Test method]]>
     </line>
     <line>
       <![CDATA[After Method Started]]>
@@ -20,7 +20,16 @@
       <![CDATA[Before Method Started]]>
     </line>
     <line>
-      <![CDATA[viewOrg_Test method of TC01_CreateOrganization_Test class]]>
+      <![CDATA[SimpleTestCase_Test show2_Test method]]>
+    </line>
+    <line>
+      <![CDATA[After Method Started]]>
+    </line>
+    <line>
+      <![CDATA[Before Method Started]]>
+    </line>
+    <line>
+      <![CDATA[SimpleTestCase_Test show_Test method]]>
     </line>
     <line>
       <![CDATA[After Method Started]]>
@@ -32,88 +41,110 @@
       <![CDATA[After Suite Started]]>
     </line>
   </reporter-output>
-  <suite started-at="2024-09-13T11:13:18 IST" name="Default suite" finished-at="2024-09-13T11:14:21 IST" duration-ms="62767">
+  <suite started-at="2024-09-30T11:06:32 IST" name="Default suite" finished-at="2024-09-30T11:07:01 IST" duration-ms="28304">
     <groups>
       <group name="Regression">
-        <method signature="TC01_CreateOrganization_Test.viewOrg_Test()[pri:0, instance:testCases.TC01_CreateOrganization_Test@7674f035]" name="viewOrg_Test" class="testCases.TC01_CreateOrganization_Test"/>
+        <method signature="SimpleTestCase_Test.show1_Test()[pri:0, instance:testCases.SimpleTestCase_Test@69e153c5]" name="show1_Test" class="testCases.SimpleTestCase_Test"/>
+        <method signature="SimpleTestCase_Test.show2_Test()[pri:0, instance:testCases.SimpleTestCase_Test@69e153c5]" name="show2_Test" class="testCases.SimpleTestCase_Test"/>
       </group> <!-- Regression -->
       <group name="Smoke">
-        <method signature="TC01_CreateOrganization_Test.creatingOrg_Test()[pri:0, instance:testCases.TC01_CreateOrganization_Test@7674f035]" name="creatingOrg_Test" class="testCases.TC01_CreateOrganization_Test"/>
+        <method signature="SimpleTestCase_Test.show_Test()[pri:0, instance:testCases.SimpleTestCase_Test@69e153c5]" name="show_Test" class="testCases.SimpleTestCase_Test"/>
       </group> <!-- Smoke -->
     </groups>
-    <test started-at="2024-09-13T11:13:18 IST" name="Default test" finished-at="2024-09-13T11:14:21 IST" duration-ms="62767">
-      <class name="testCases.TC01_CreateOrganization_Test">
-        <test-method is-config="true" signature="itsBeforeSuite()[pri:0, instance:testCases.TC01_CreateOrganization_Test@7674f035]" started-at="2024-09-13T11:13:18 IST" name="itsBeforeSuite" finished-at="2024-09-13T11:13:18 IST" duration-ms="58" status="PASS">
+    <test started-at="2024-09-30T11:06:32 IST" name="Default test" finished-at="2024-09-30T11:07:01 IST" duration-ms="28304">
+      <class name="testCases.SimpleTestCase_Test">
+        <test-method is-config="true" signature="itsBeforeSuite()[pri:0, instance:testCases.SimpleTestCase_Test@69e153c5]" started-at="2024-09-30T11:06:32 IST" name="itsBeforeSuite" finished-at="2024-09-30T11:06:32 IST" duration-ms="171" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Before Suite Started]]>
             </line>
           </reporter-output>
         </test-method> <!-- itsBeforeSuite -->
-        <test-method is-config="true" signature="itsBeforeClass()[pri:0, instance:testCases.TC01_CreateOrganization_Test@7674f035]" started-at="2024-09-13T11:13:18 IST" name="itsBeforeClass" finished-at="2024-09-13T11:13:18 IST" duration-ms="220" status="PASS">
+        <test-method is-config="true" signature="itsBeforeClass()[pri:0, instance:testCases.SimpleTestCase_Test@69e153c5]" started-at="2024-09-30T11:06:32 IST" name="itsBeforeClass" finished-at="2024-09-30T11:06:33 IST" duration-ms="562" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Before Class Started]]>
             </line>
           </reporter-output>
         </test-method> <!-- itsBeforeClass -->
-        <test-method is-config="true" signature="itsBeforeMethod()[pri:0, instance:testCases.TC01_CreateOrganization_Test@7674f035]" started-at="2024-09-13T11:13:18 IST" name="itsBeforeMethod" finished-at="2024-09-13T11:13:42 IST" duration-ms="23999" status="PASS">
+        <test-method is-config="true" signature="itsBeforeMethod()[pri:0, instance:testCases.SimpleTestCase_Test@69e153c5]" started-at="2024-09-30T11:06:33 IST" name="itsBeforeMethod" finished-at="2024-09-30T11:06:43 IST" duration-ms="9773" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Before Method Started]]>
             </line>
           </reporter-output>
         </test-method> <!-- itsBeforeMethod -->
-        <test-method signature="creatingOrg_Test()[pri:0, instance:testCases.TC01_CreateOrganization_Test@7674f035]" started-at="2024-09-13T11:13:42 IST" name="creatingOrg_Test" finished-at="2024-09-13T11:14:03 IST" duration-ms="20317" status="PASS">
+        <test-method signature="show1_Test()[pri:0, instance:testCases.SimpleTestCase_Test@69e153c5]" started-at="2024-09-30T11:06:43 IST" name="show1_Test" finished-at="2024-09-30T11:06:43 IST" duration-ms="25" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[creatingOrg_Test method of TC01_CreateOrganization_Test class]]>
+              <![CDATA[SimpleTestCase_Test show1_Test method]]>
             </line>
           </reporter-output>
-        </test-method> <!-- creatingOrg_Test -->
-        <test-method is-config="true" signature="itsAfterMethod()[pri:0, instance:testCases.TC01_CreateOrganization_Test@7674f035]" started-at="2024-09-13T11:14:03 IST" name="itsAfterMethod" finished-at="2024-09-13T11:14:13 IST" duration-ms="10603" status="PASS">
+        </test-method> <!-- show1_Test -->
+        <test-method is-config="true" signature="itsAfterMethod()[pri:0, instance:testCases.SimpleTestCase_Test@69e153c5]" started-at="2024-09-30T11:06:43 IST" name="itsAfterMethod" finished-at="2024-09-30T11:06:43 IST" duration-ms="125" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[After Method Started]]>
             </line>
           </reporter-output>
         </test-method> <!-- itsAfterMethod -->
-        <test-method is-config="true" signature="itsBeforeMethod()[pri:0, instance:testCases.TC01_CreateOrganization_Test@7674f035]" started-at="2024-09-13T11:14:13 IST" name="itsBeforeMethod" finished-at="2024-09-13T11:14:18 IST" duration-ms="4596" status="PASS">
+        <test-method is-config="true" signature="itsBeforeMethod()[pri:0, instance:testCases.SimpleTestCase_Test@69e153c5]" started-at="2024-09-30T11:06:43 IST" name="itsBeforeMethod" finished-at="2024-09-30T11:06:51 IST" duration-ms="8397" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Before Method Started]]>
             </line>
           </reporter-output>
         </test-method> <!-- itsBeforeMethod -->
-        <test-method signature="viewOrg_Test()[pri:0, instance:testCases.TC01_CreateOrganization_Test@7674f035]" started-at="2024-09-13T11:14:18 IST" name="viewOrg_Test" finished-at="2024-09-13T11:14:21 IST" duration-ms="2772" status="PASS">
+        <test-method signature="show2_Test()[pri:0, instance:testCases.SimpleTestCase_Test@69e153c5]" started-at="2024-09-30T11:06:51 IST" name="show2_Test" finished-at="2024-09-30T11:06:51 IST" duration-ms="17" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[viewOrg_Test method of TC01_CreateOrganization_Test class]]>
+              <![CDATA[SimpleTestCase_Test show2_Test method]]>
             </line>
           </reporter-output>
-        </test-method> <!-- viewOrg_Test -->
-        <test-method is-config="true" signature="itsAfterMethod()[pri:0, instance:testCases.TC01_CreateOrganization_Test@7674f035]" started-at="2024-09-13T11:14:21 IST" name="itsAfterMethod" finished-at="2024-09-13T11:14:21 IST" duration-ms="62" status="PASS">
+        </test-method> <!-- show2_Test -->
+        <test-method is-config="true" signature="itsAfterMethod()[pri:0, instance:testCases.SimpleTestCase_Test@69e153c5]" started-at="2024-09-30T11:06:51 IST" name="itsAfterMethod" finished-at="2024-09-30T11:06:51 IST" duration-ms="120" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[After Method Started]]>
             </line>
           </reporter-output>
         </test-method> <!-- itsAfterMethod -->
-        <test-method is-config="true" signature="itsAfterClass()[pri:0, instance:testCases.TC01_CreateOrganization_Test@7674f035]" started-at="2024-09-13T11:14:21 IST" name="itsAfterClass" finished-at="2024-09-13T11:14:21 IST" duration-ms="169" status="PASS">
+        <test-method is-config="true" signature="itsBeforeMethod()[pri:0, instance:testCases.SimpleTestCase_Test@69e153c5]" started-at="2024-09-30T11:06:51 IST" name="itsBeforeMethod" finished-at="2024-09-30T11:07:00 IST" duration-ms="8627" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Before Method Started]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- itsBeforeMethod -->
+        <test-method signature="show_Test()[pri:0, instance:testCases.SimpleTestCase_Test@69e153c5]" started-at="2024-09-30T11:07:00 IST" name="show_Test" finished-at="2024-09-30T11:07:00 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[SimpleTestCase_Test show_Test method]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- show_Test -->
+        <test-method is-config="true" signature="itsAfterMethod()[pri:0, instance:testCases.SimpleTestCase_Test@69e153c5]" started-at="2024-09-30T11:07:00 IST" name="itsAfterMethod" finished-at="2024-09-30T11:07:00 IST" duration-ms="143" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[After Method Started]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- itsAfterMethod -->
+        <test-method is-config="true" signature="itsAfterClass()[pri:0, instance:testCases.SimpleTestCase_Test@69e153c5]" started-at="2024-09-30T11:07:00 IST" name="itsAfterClass" finished-at="2024-09-30T11:07:01 IST" duration-ms="441" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[After Class Started]]>
             </line>
           </reporter-output>
         </test-method> <!-- itsAfterClass -->
-        <test-method is-config="true" signature="itsAfterSuite()[pri:0, instance:testCases.TC01_CreateOrganization_Test@7674f035]" started-at="2024-09-13T11:14:21 IST" name="itsAfterSuite" finished-at="2024-09-13T11:14:22 IST" duration-ms="614" status="PASS">
+        <test-method is-config="true" signature="itsAfterSuite()[pri:0, instance:testCases.SimpleTestCase_Test@69e153c5]" started-at="2024-09-30T11:07:01 IST" name="itsAfterSuite" finished-at="2024-09-30T11:07:01 IST" duration-ms="870" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[After Suite Started]]>
             </line>
           </reporter-output>
         </test-method> <!-- itsAfterSuite -->
-      </class> <!-- testCases.TC01_CreateOrganization_Test -->
+      </class> <!-- testCases.SimpleTestCase_Test -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
