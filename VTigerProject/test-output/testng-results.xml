@@ -1,150 +1,84 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
-    <line>
-      <![CDATA[Before Suite Started]]>
-    </line>
-    <line>
-      <![CDATA[Before Class Started]]>
-    </line>
-    <line>
-      <![CDATA[Before Method Started]]>
-    </line>
-    <line>
-      <![CDATA[SimpleTestCase_Test show1_Test method]]>
-    </line>
-    <line>
-      <![CDATA[After Method Started]]>
-    </line>
-    <line>
-      <![CDATA[Before Method Started]]>
-    </line>
-    <line>
-      <![CDATA[SimpleTestCase_Test show2_Test method]]>
-    </line>
-    <line>
-      <![CDATA[After Method Started]]>
-    </line>
-    <line>
-      <![CDATA[Before Method Started]]>
-    </line>
-    <line>
-      <![CDATA[SimpleTestCase_Test show_Test method]]>
-    </line>
-    <line>
-      <![CDATA[After Method Started]]>
-    </line>
-    <line>
-      <![CDATA[After Class Started]]>
-    </line>
-    <line>
-      <![CDATA[After Suite Started]]>
-    </line>
   </reporter-output>
-  <suite started-at="2024-09-30T11:06:32 IST" name="Default suite" finished-at="2024-09-30T11:07:01 IST" duration-ms="28304">
+  <suite started-at="2024-10-09T15:26:33 IST" name="Default suite" finished-at="2024-10-09T15:27:17 IST" duration-ms="44664">
     <groups>
-      <group name="Regression">
-        <method signature="SimpleTestCase_Test.show1_Test()[pri:0, instance:testCases.SimpleTestCase_Test@69e153c5]" name="show1_Test" class="testCases.SimpleTestCase_Test"/>
-        <method signature="SimpleTestCase_Test.show2_Test()[pri:0, instance:testCases.SimpleTestCase_Test@69e153c5]" name="show2_Test" class="testCases.SimpleTestCase_Test"/>
-      </group> <!-- Regression -->
-      <group name="Smoke">
-        <method signature="SimpleTestCase_Test.show_Test()[pri:0, instance:testCases.SimpleTestCase_Test@69e153c5]" name="show_Test" class="testCases.SimpleTestCase_Test"/>
-      </group> <!-- Smoke -->
     </groups>
-    <test started-at="2024-09-30T11:06:32 IST" name="Default test" finished-at="2024-09-30T11:07:01 IST" duration-ms="28304">
-      <class name="testCases.SimpleTestCase_Test">
-        <test-method is-config="true" signature="itsBeforeSuite()[pri:0, instance:testCases.SimpleTestCase_Test@69e153c5]" started-at="2024-09-30T11:06:32 IST" name="itsBeforeSuite" finished-at="2024-09-30T11:06:32 IST" duration-ms="171" status="PASS">
+    <test started-at="2024-10-09T15:26:33 IST" name="Default test" finished-at="2024-10-09T15:27:17 IST" duration-ms="44664">
+      <class name="tpass.Creating_Contact_With_Organization_Test">
+        <test-method signature="createContactWithOrg_Test(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tpass.Creating_Contact_With_Organization_Test@70e9c95d]" started-at="2024-10-09T15:26:34 IST" name="createContactWithOrg_Test" data-provider="dataToCreateContact" finished-at="2024-10-09T15:27:17 IST" duration-ms="43222" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Org_]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://demowebshop.tricentis.com/]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[7.85563421E9]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[abc123@gmail.com]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Education]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Active]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Partner]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Group]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[Support Group]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Ms.]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[Tanuja]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[Sonawale]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
-            <line>
-              <![CDATA[Before Suite Started]]>
-            </line>
           </reporter-output>
-        </test-method> <!-- itsBeforeSuite -->
-        <test-method is-config="true" signature="itsBeforeClass()[pri:0, instance:testCases.SimpleTestCase_Test@69e153c5]" started-at="2024-09-30T11:06:32 IST" name="itsBeforeClass" finished-at="2024-09-30T11:06:33 IST" duration-ms="562" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[Before Class Started]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- itsBeforeClass -->
-        <test-method is-config="true" signature="itsBeforeMethod()[pri:0, instance:testCases.SimpleTestCase_Test@69e153c5]" started-at="2024-09-30T11:06:33 IST" name="itsBeforeMethod" finished-at="2024-09-30T11:06:43 IST" duration-ms="9773" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[Before Method Started]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- itsBeforeMethod -->
-        <test-method signature="show1_Test()[pri:0, instance:testCases.SimpleTestCase_Test@69e153c5]" started-at="2024-09-30T11:06:43 IST" name="show1_Test" finished-at="2024-09-30T11:06:43 IST" duration-ms="25" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[SimpleTestCase_Test show1_Test method]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- show1_Test -->
-        <test-method is-config="true" signature="itsAfterMethod()[pri:0, instance:testCases.SimpleTestCase_Test@69e153c5]" started-at="2024-09-30T11:06:43 IST" name="itsAfterMethod" finished-at="2024-09-30T11:06:43 IST" duration-ms="125" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[After Method Started]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- itsAfterMethod -->
-        <test-method is-config="true" signature="itsBeforeMethod()[pri:0, instance:testCases.SimpleTestCase_Test@69e153c5]" started-at="2024-09-30T11:06:43 IST" name="itsBeforeMethod" finished-at="2024-09-30T11:06:51 IST" duration-ms="8397" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[Before Method Started]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- itsBeforeMethod -->
-        <test-method signature="show2_Test()[pri:0, instance:testCases.SimpleTestCase_Test@69e153c5]" started-at="2024-09-30T11:06:51 IST" name="show2_Test" finished-at="2024-09-30T11:06:51 IST" duration-ms="17" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[SimpleTestCase_Test show2_Test method]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- show2_Test -->
-        <test-method is-config="true" signature="itsAfterMethod()[pri:0, instance:testCases.SimpleTestCase_Test@69e153c5]" started-at="2024-09-30T11:06:51 IST" name="itsAfterMethod" finished-at="2024-09-30T11:06:51 IST" duration-ms="120" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[After Method Started]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- itsAfterMethod -->
-        <test-method is-config="true" signature="itsBeforeMethod()[pri:0, instance:testCases.SimpleTestCase_Test@69e153c5]" started-at="2024-09-30T11:06:51 IST" name="itsBeforeMethod" finished-at="2024-09-30T11:07:00 IST" duration-ms="8627" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[Before Method Started]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- itsBeforeMethod -->
-        <test-method signature="show_Test()[pri:0, instance:testCases.SimpleTestCase_Test@69e153c5]" started-at="2024-09-30T11:07:00 IST" name="show_Test" finished-at="2024-09-30T11:07:00 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[SimpleTestCase_Test show_Test method]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- show_Test -->
-        <test-method is-config="true" signature="itsAfterMethod()[pri:0, instance:testCases.SimpleTestCase_Test@69e153c5]" started-at="2024-09-30T11:07:00 IST" name="itsAfterMethod" finished-at="2024-09-30T11:07:00 IST" duration-ms="143" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[After Method Started]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- itsAfterMethod -->
-        <test-method is-config="true" signature="itsAfterClass()[pri:0, instance:testCases.SimpleTestCase_Test@69e153c5]" started-at="2024-09-30T11:07:00 IST" name="itsAfterClass" finished-at="2024-09-30T11:07:01 IST" duration-ms="441" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[After Class Started]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- itsAfterClass -->
-        <test-method is-config="true" signature="itsAfterSuite()[pri:0, instance:testCases.SimpleTestCase_Test@69e153c5]" started-at="2024-09-30T11:07:01 IST" name="itsAfterSuite" finished-at="2024-09-30T11:07:01 IST" duration-ms="870" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[After Suite Started]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- itsAfterSuite -->
-      </class> <!-- testCases.SimpleTestCase_Test -->
+        </test-method> <!-- createContactWithOrg_Test -->
+      </class> <!-- tpass.Creating_Contact_With_Organization_Test -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
