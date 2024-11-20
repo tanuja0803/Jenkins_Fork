@@ -9,7 +9,7 @@ import org.apache.poi.ss.usermodel.Sheet;
 import org.apache.poi.ss.usermodel.Workbook;
 import org.apache.poi.ss.usermodel.WorkbookFactory;
 
-public class ReadingDataFromExcelFile {
+public class Reading_WritingDataFrom_ToExcelFile {
 	public Workbook wb;
 	Sheet sh;
 	FileInputStream fis;
