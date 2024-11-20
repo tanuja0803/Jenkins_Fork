@@ -136,4 +136,9 @@ public class Creating_Contact_With_Organization_Test {
 		
 		//driver.quit();
 	}
+	
+	@Test
+	public void simple_Test() {
+		System.out.println("Hiii from simple test");
+	}
 }
